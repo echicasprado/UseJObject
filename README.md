@@ -17,8 +17,8 @@ jObject["pages"] = "Señor presidente"
 jObject["pages"] = "321"
 ```
 ![assig Data](https://github.com/echicasprado/UseJObject/blob/main/img/assigData.PNG)
-Finally use JsonConvert to convert from jObject to String
 
+Finally use JsonConvert to convert from jObject to String
 ```
 jObjectString = JsonConvert.SerializeObject(jObject)
 ```
