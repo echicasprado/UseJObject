@@ -1,10 +1,23 @@
 # UseJObject
 
 Example to use JObject with UiPath
----
 
 ## Step by Step
-First create variable in scope
+Click in Manage Packages
+
+![Manage Packages](https://github.com/echicasprado/UseJObject/blob/main/img/packageManage.PNG)
+
+- Find UiPath.WebAPI.Activies
+- Click on install
+- Save
+
+![WebAPI](https://github.com/echicasprado/UseJObject/blob/main/img/WebAPI.PNG)
+
+Check package name in dependencies
+
+![Check package](https://github.com/echicasprado/UseJObject/blob/main/img/checkPackage.PNG)
+
+Create variable in scope
 ```
 jObject
 jObjectString
@@ -18,20 +31,20 @@ jObject["pages"] = "Señor presidente"
 jObject["pages"] = "321"
 ```
 ![assig Data](https://github.com/echicasprado/UseJObject/blob/main/img/assigData.PNG)
-Finally use JsonConvert to convert from jObject to String
 
+Finally use JsonConvert to convert from jObject to String
 ```
 jObjectString = JsonConvert.SerializeObject(jObject)
 ```
----
-Final result
+
+## Final result
+
 ### JObject
-Log
 ![jObject](https://github.com/echicasprado/UseJObject/blob/main/img/jObjectLog.PNG)
-Result
+
 ![jObject result](https://github.com/echicasprado/UseJObject/blob/main/img/resultJObjectLog.PNG)
+
 ### String
-Log
 ![string](https://github.com/echicasprado/UseJObject/blob/main/img/stringLog.PNG)
-Result
+
 ![string result](https://github.com/echicasprado/UseJObject/blob/main/img/resultStringLog.PNG)
