@@ -3,7 +3,21 @@
 Example to use JObject with UiPath
 
 ## Step by Step
-First create variable in scope
+Click in Manage Packages
+
+![Manage Packages](https://github.com/echicasprado/UseJObject/blob/main/img/packageManage.PNG)
+
+- Find UiPath.WebAPI.Activies
+- Click on install
+- Save
+
+![WebAPI](https://github.com/echicasprado/UseJObject/blob/main/img/WebAPI.PNG)
+
+Check package name in dependencies
+
+![Check package](https://github.com/echicasprado/UseJObject/blob/main/img/checkPackage.PNG)
+
+Create variable in scope
 ```
 jObject
 jObjectString
